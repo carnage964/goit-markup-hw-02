@@ -6,9 +6,10 @@
 }
 
 body {
-    font-family: 'Roboto', 'Releway', sans-serif;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
     line-height: 1.6;
+    background-color: #ffffff;
 }
 
 header {
@@ -37,16 +38,20 @@ a:visited {
     color: #404bbf;
 }
 
+.link {
+    text-decoration: none;
+}
+
 button:hover {
     background-color: darkslateblue;
 }
 
 .logo {
-    font-size: 18;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     font-weight: 800;
@@ -66,9 +71,9 @@ button:hover {
 
 .link-studio {
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
 }
@@ -82,10 +87,10 @@ button:hover {
 }
 
 .top-class {
-    font-size: 56;
+    font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #ffffff;
 }
 
@@ -93,11 +98,28 @@ button:hover {
     background-color: #4d5ae5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+}
+
+.second-class {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.third-section {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .highlight {

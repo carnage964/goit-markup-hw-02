@@ -3,16 +3,6 @@
     --second-color-text: #4285f4;
     --color-white: white;
     --iris: #4d5ae5;
-    --blue-color: #404bbf;
-}
-
-logo-class:hover logo-class:focus {
-    color: #404bbf;
-}
-
-li-links:hover,
-li-links:focus {
-    color: #404bbf;
 }
 
 body {
@@ -31,13 +21,29 @@ button {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #404bbf;
+}
+
+a:active {
+    color: #404bbf;
+}
+
+a:visited {
+    color: #404bbf;
+}
+
 .link {
     text-decoration: none;
 }
 
-button:hover,
-button:focus {
-    background-color: #404bbf;
+button:hover {
+    background-color: darkslateblue;
 }
 
 .logo {
@@ -72,7 +78,7 @@ button:focus {
     text-decoration: none;
 }
 
-.adress-style {
+.address-style {
     font-style: normal;
 }
 
@@ -107,141 +113,15 @@ button:focus {
     color: #2e2f42;
 }
 
-.h3-class {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.p-class {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.sec-head {
+.third-section {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-
-.last-section {
-    background-color: #f4f4fd;
-}
-
-.last-class {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.names-style {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.p-describes {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.page-footer {
-    color: #2e2f42;
-}
-
-.footer-studio {
-    color: #f4f4fd;
-}
-
-.page-footer {
-    line-height: 1.5;
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
-}
-
-.studio-head {
-    color: #2e2f42;
-}
-
-.address-details {
-    font-style: normal;
-}
-
-.logo-class {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.li-links {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-}
-
-.link-details {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.portfolio-footer {
-    background-color: #2e2f42;
-}
-
-.footer-color {
-    color: #f4f4fd;
-}
-
-.style-button {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color: #f4f4fd;
-    cursor: pointer;
-}
-
-.header-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.class-port {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .highlight {
     color: var(--second-color-text);
-}
-
-.highlight-web {
-    color: #f4f4fd;
 }

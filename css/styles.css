@@ -1,0 +1,262 @@
+:root {
+    --first-color-text: #000;
+    --second-color-text: #4285f4;
+    --color-white: white;
+    --iris: #4d5ae5;
+    --blue-color: #404bbf;
+    --studio-class: #f4f4fd;
+    --ourteam-section: #ffffff;
+    --color-body: #434455;
+    --font-color: #2e2f42;
+}
+
+.logo-class:hover,
+.logo-class:focus {
+    color: var(--blue-color);
+}
+
+.li-links:hover,
+.li-links:focus {
+    color: var(--blue-color);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-body);
+    line-height: 1.6;
+    background-color: var(--color-white);
+}
+
+header {
+    background-color: var(--color-white);
+}
+
+button {
+    background-color: var(--iris);
+    color: var(--color-white);
+}
+
+.link {
+    text-decoration: none;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--blue-color);
+}
+
+.studio-class {
+    color: var(--studio-class);
+}
+
+.ourteam-section {
+    background-color: var(--ourteam-section);
+}
+
+.logo {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    font-weight: 800;
+}
+
+.font {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--font-color);
+}
+
+.studio-color {
+    color: var(--font-color);
+}
+
+.list {
+    list-style: none;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: var(--color-body);
+}
+
+.link-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.adress-style {
+    font-style: normal;
+}
+
+.section-details {
+    background-color: var(--font-color);
+}
+
+.top-class {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+
+.button-class {
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.second-class {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--font-color);
+}
+
+.sol-class {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+}
+
+.footer-acapit {
+    line-height: 1.5;
+    color: var(--studio-class);
+    letter-spacing: 0.02em;
+}
+
+.p-class {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body);
+}
+
+.sec-head {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--font-color);
+}
+
+.last-section {
+    background-color: var(--studio-class);
+}
+
+.last-class {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--font-color);
+}
+
+.p-describes {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body);
+}
+
+.page-footer {
+    color: var(--font-color);
+}
+
+.footer-studio {
+    color: var(--studio-class);
+}
+
+.page-footer {
+    line-height: 1.5;
+    color: var(--studio-class);
+    letter-spacing: 0.02em;
+}
+
+.studio-head {
+    color: var(--font-color);
+}
+
+.address-details {
+    font-style: normal;
+}
+
+.logo-class {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+}
+
+.li-links {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body);
+    font-style: normal;
+}
+
+.link-details {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body);
+}
+
+.portfolio-footer {
+    background-color: var(--font-color);
+}
+
+.footer-color {
+    color: var(--studio-class);
+}
+
+.style-button:focus,
+.style-button:hover {
+    color: var(--color-white);
+}
+
+.style-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--studio-class);
+    cursor: pointer;
+}
+
+.class-port {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body);
+}
+
+.highlight {
+    color: var(--second-color-text);
+}
+
+.highlight-web {
+    color: var(--studio-class);
+}

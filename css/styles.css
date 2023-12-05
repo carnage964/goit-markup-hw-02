@@ -1,127 +1,41 @@
 :root {
-    --first-color-text: #000;
-    --second-color-text: #4285f4;
-    --color-white: white;
-    --iris: #4d5ae5;
+    --default-background: #333;
+    --first-color-text: #fff;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    line-height: 1.6;
-    background-color: #ffffff;
+    margin: 0;
 }
 
-header {
-    background-color: var(--color-white);
+
+.header {
+    background-color: var(--default-background);
 }
 
-button {
-    background-color: var(--iris);
-    color: white;
+.header h1 {
+    text-align: center;
+    color: var(--first-color-text);
 }
 
-a {
+.navigation {
+    background-color: #666;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation-item a {
+    color: var(--first-color-text);
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #404bbf;
-}
-
-a:active {
-    color: #404bbf;
-}
-
-a:visited {
-    color: #404bbf;
-}
-
-.link {
-    text-decoration: none;
-}
-
-button:hover {
-    background-color: darkslateblue;
-}
-
-.logo {
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    font-weight: 800;
 }
 
-.studio-color {
-    color: #2e2f42;
+
+.footer {
+    background-color: var(--default-background);
 }
 
-.list {
-    list-style: none;
-    font-size: 16;
-    line-height: 1.5;
-    letter-spacing: 0.02;
-    color: #434455;
-}
-
-.link-studio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.address-style {
-    font-style: normal;
-}
-
-.section-details {
-    background-color: #2e2f42
-}
-
-.top-class {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff
-}
-
-.button-class {
-    background-color: #4d5ae5;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.second-class {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    line-height: 1.2;
-    color: #2e2f42;
-}
-
-.third-section {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.highlight {
-    color: var(--second-color-text);
+.footer p {
+    color: var(--first-color-text);
 }

@@ -4,22 +4,27 @@
     --color-white: white;
     --iris: #4d5ae5;
     --blue-color: #404bbf;
+    --studio-class: #f4f4fd;
+    --ourteam-section: #ffffff;
+    --color-body: #434455;
+    --font-color: #2e2f42;
 }
 
-logo-class:hover logo-class:focus {
-    color: #404bbf;
+.logo-class:hover,
+.logo-class:focus {
+    color: var(--blue-color);
 }
 
-li-links:hover,
-li-links:focus {
-    color: #404bbf;
+.li-links:hover,
+.li-links:focus {
+    color: var(--blue-color);
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--color-body);
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: var(--color-white);
 }
 
 header {
@@ -28,7 +33,7 @@ header {
 
 button {
     background-color: var(--iris);
-    color: white;
+    color: var(--color-white);
 }
 
 .link {
@@ -37,7 +42,15 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #404bbf;
+    background-color: var(--blue-color);
+}
+
+.studio-class {
+    color: var(--studio-class);
+}
+
+.ourteam-section {
+    background-color: var(--ourteam-section);
 }
 
 .logo {
@@ -47,12 +60,20 @@ button:focus {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--iris);
     font-weight: 800;
 }
 
+.font {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--font-color);
+}
+
 .studio-color {
-    color: #2e2f42;
+    color: var(--font-color);
 }
 
 .list {
@@ -60,7 +81,7 @@ button:focus {
     font-size: 16;
     line-height: 1.5;
     letter-spacing: 0.02;
-    color: #434455;
+    color: var(--color-body);
 }
 
 .link-studio {
@@ -68,7 +89,7 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--font-color);
     text-decoration: none;
 }
 
@@ -77,7 +98,7 @@ button:focus {
 }
 
 .section-details {
-    background-color: #2e2f42;
+    background-color: var(--font-color);
 }
 
 .top-class {
@@ -85,7 +106,7 @@ button:focus {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--color-white);
 }
 
 .button-class {
@@ -95,7 +116,7 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--color-white);
     cursor: pointer;
 }
 
@@ -103,23 +124,28 @@ button:focus {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    line-height: 1.2;
-    color: #2e2f42;
+    color: var(--font-color);
 }
 
-.h3-class {
+.sol-class {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--font-color);
+}
+
+.footer-acapit {
+    line-height: 1.5;
+    color: var(--studio-class);
+    letter-spacing: 0.02em;
 }
 
 .p-class {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-body);
 }
 
 .sec-head {
@@ -128,11 +154,11 @@ button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--font-color);
 }
 
 .last-section {
-    background-color: #f4f4fd;
+    background-color: var(--studio-class);
 }
 
 .last-class {
@@ -141,40 +167,32 @@ button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.names-style {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--font-color);
 }
 
 .p-describes {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-body);
 }
 
 .page-footer {
-    color: #2e2f42;
+    color: var(--font-color);
 }
 
 .footer-studio {
-    color: #f4f4fd;
+    color: var(--studio-class);
 }
 
 .page-footer {
     line-height: 1.5;
-    color: #f4f4fd;
+    color: var(--studio-class);
     letter-spacing: 0.02em;
 }
 
 .studio-head {
-    color: #2e2f42;
+    color: var(--font-color);
 }
 
 .address-details {
@@ -186,14 +204,14 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--font-color);
 }
 
 .li-links {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-body);
     font-style: normal;
 }
 
@@ -201,15 +219,20 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-body);
 }
 
 .portfolio-footer {
-    background-color: #2e2f42;
+    background-color: var(--font-color);
 }
 
 .footer-color {
-    color: #f4f4fd;
+    color: var(--studio-class);
+}
+
+.style-button:focus,
+.style-button:hover {
+    color: var(--color-white);
 }
 
 .style-button {
@@ -218,24 +241,16 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color: #f4f4fd;
+    color: var(--iris);
+    background-color: var(--studio-class);
     cursor: pointer;
-}
-
-.header-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 .class-port {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-body);
 }
 
 .highlight {
@@ -243,5 +258,5 @@ button:focus {
 }
 
 .highlight-web {
-    color: #f4f4fd;
+    color: var(--studio-class);
 }

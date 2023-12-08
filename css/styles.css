@@ -141,13 +141,6 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
-.p-class {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-body);
-}
-
 .sec-head {
     font-size: 36px;
     line-height: 1.11;
@@ -168,13 +161,6 @@ button:focus {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--font-color);
-}
-
-.p-describes {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-body);
 }
 
 .page-footer {

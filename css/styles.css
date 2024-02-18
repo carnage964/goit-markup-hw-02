@@ -61,7 +61,7 @@ button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .font {
@@ -98,15 +98,16 @@ button:focus {
 }
 
 .section-details {
-    background-color: var(--font-color);
+    background-color: #F4F4FD;
 }
 
 .top-class {
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--color-white);
+    letter-spacing: 0,02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .button-class {
@@ -141,15 +142,6 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
-.sec-head {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--font-color);
-}
-
 .foto-section {
     background-color: var(--studio-class);
 }
@@ -160,7 +152,7 @@ button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--font-color);
+    color: #2e2f42;
 }
 
 .page-footer {
@@ -228,7 +220,7 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--iris);
-    background-color: var(--studio-class);
+    background-color: #2e2f42;
     cursor: pointer;
 }
 

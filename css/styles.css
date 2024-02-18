@@ -136,7 +136,7 @@ button:focus {
     color: var(--font-color);
 }
 
-.footer-acapit {
+.acapit {
     line-height: 1.5;
     color: var(--studio-class);
     letter-spacing: 0.02em;
@@ -144,6 +144,15 @@ button:focus {
 
 .team-section {
     background-color: #f4f4fd;
+}
+
+.team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .page-footer {

@@ -61,7 +61,7 @@ button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .font {
@@ -125,6 +125,10 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
     color: var(--font-color);
+}
+
+.team-stration {
+    background-color: #F4F4FD;
 }
 
 .sol-class {
@@ -214,6 +218,12 @@ button:focus {
 
 .footer-color {
     color: var(--studio-class);
+}
+
+.acapit {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 .style-button:focus,

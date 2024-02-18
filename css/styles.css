@@ -160,6 +160,15 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
+.foto-class {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 .studio-head {
     color: var(--font-color);
 }
@@ -191,8 +200,8 @@ button:focus {
     color: var(--color-body);
 }
 
-.portfolio-footer {
-    background-color: var(--font-color);
+.portfolio {
+    background-color: #2e2f42;
 }
 
 .footer-color {

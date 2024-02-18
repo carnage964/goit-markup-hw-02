@@ -146,13 +146,22 @@ button:focus {
     background-color: #f4f4fd;
 }
 
-.src {
+.src-team {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.strategy {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+     text-transform: capitalize;
+     color: #2e2f42;
 }
 
 .page-footer {
@@ -169,7 +178,7 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
-.foto-class {
+.philosophy {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;

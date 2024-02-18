@@ -98,16 +98,16 @@ button:focus {
 }
 
 .section-details {
-    background-color: #F4F4FD;
+    background-color: #2e2f42;
 }
 
 .top-class {
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #ffffff;
 }
 
 .button-class {
@@ -142,8 +142,8 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
-.foto-section {
-    background-color: var(--studio-class);
+.team-section {
+    background-color: #f4f4fd;
 }
 
 .foto-class {
@@ -173,7 +173,7 @@ button:focus {
     color: var(--font-color);
 }
 
-.address-details {
+.addresss-details {
     font-style: normal;
 }
 

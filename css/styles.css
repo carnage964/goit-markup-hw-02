@@ -146,15 +146,6 @@ button:focus {
     background-color: #f4f4fd;
 }
 
-.src-team {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
 .strategy {
     font-size: 36px;
     line-height: 1.11;

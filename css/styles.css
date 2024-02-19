@@ -158,24 +158,6 @@ button:focus {
     background-color: var(--studio-class);
 }
 
-.team_class {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--font-color);
-}
-
-.apss-class {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
 .page-footer {
     color: var(--font-color);
 }

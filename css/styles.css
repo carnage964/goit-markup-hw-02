@@ -1,7 +1,7 @@
 body {
     font-size: 'Roboto', sans-serif;
     font-family: "Roboto", sans-serif;
-    color: #434455
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -14,15 +14,15 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
 
 .studio-color {
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 .logo {
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
 
 
 .navigation-links .link {
-    color: #2e2f42;
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -40,11 +40,11 @@ ul {
 }
 
 .navigation-links .link:hover {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .navigation-links .link:active {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 
@@ -61,19 +61,19 @@ ul {
 }
 .link:hover,
 .li-link:hover {
-    color: #404bbf;
+    color: #404BBF;
 }
 .link:focus,
 .li-link:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 .link:active,
 .li-link:active {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .section-details {
-background-color: #2e2f42;
+background-color: #2E2F42;
 }
 
 
@@ -82,7 +82,7 @@ background-color: #2e2f42;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .button-class {
@@ -93,14 +93,14 @@ background-color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.04em;
 
-    color: #fff;
+    color: #FFFFFF;
     cursor: pointer;
 }
 
 .button-class:hover,
 .button-class:active,
 .button-class:focus {
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
 
 
@@ -110,7 +110,7 @@ background-color: #2e2f42;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
     text-transform: capitalize;
 }
 
@@ -119,11 +119,11 @@ background-color: #2e2f42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 .team-card-background {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 .p-section-text {
     font-size: 16px;
@@ -134,7 +134,7 @@ background-color: #2e2f42;
 
 
 .team-section {
-    background-color: #f4f4fd;
+    background-color: #F4F4FD;
 }
 
 .ourteam-section {
@@ -143,16 +143,16 @@ background-color: #2e2f42;
 
 
 .footer-portfolio {
-    background-color: #2e2f42;
+    background-color: #2E2F42;
 }
 
 .logo-white {
-    color: #f4f4fd;
+    color: #F4F4FD;
 }
 
 .footer-last-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-    background-color: #2e2f42;
+    color: #F4F4FD;
+    background-color: #2E2F42;
 }

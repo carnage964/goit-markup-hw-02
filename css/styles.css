@@ -106,8 +106,8 @@ background-color: #2E2F42;
 
 .philosophy-header-title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -125,6 +125,7 @@ background-color: #2E2F42;
 .team-card-background {
     background-color: #FFFFFF;
 }
+
 .p-section-text {
     font-size: 16px;
     line-height: 1.5;
